@@ -9,7 +9,7 @@
   - Int(4byte) 범위: -2^31 ~ 2^31 - 1
   - Long(8byte) 범위: -2^63 ~ 2^63 - 1
 ## 진수법
-- **2진수(binary)**
-- **8진수(octal)**
-- **10진수(decimal)**
-- **16진수(hexadecimal)**
+- 2진수(binary)
+- 8진수(octal)
+- 10진수(decimal)
+- 16진수(hexadecimal)
