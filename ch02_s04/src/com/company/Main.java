@@ -112,6 +112,11 @@ public class Main {
         // sout(val);
 
         val = 5;
+        System.out.println(val);
+        System.out.println(val++);
+        System.out.println(val);
+        System.out.println("");
+
         int new_val = val++ * 10 + --val;
         System.out.println(new_val);
         System.out.println("");
@@ -136,6 +141,7 @@ public class Main {
         System.out.printf("b%32s\n", Integer.toBinaryString(1423 >> 2));
         System.out.printf("b%32s\n", Integer.toBinaryString(1423 >> 4));
         System.out.printf("b%32s\n", Integer.toBinaryString(1423 << 2));
+//        System.out.printf("b%32\n", Integer.toBinaryString(1423 << 2));
         System.out.printf("b%32s\n", Integer.toBinaryString(1423 << 4)); // shift 연산자
 
         System.out.printf("b%32s\n", Integer.toBinaryString(-1));
@@ -146,12 +152,26 @@ public class Main {
         intVal >>= 2; // intVal = intVal >> 2; Shift 연산자도 대입연산자 가능
         intVal |= 412; // intVal = intVal | 412; Bitwise 연산자도 대입연산자 가능
 
-        System.out.printf("b%32s\n", Integer.toBinaryString(1252));
-        System.out.printf("b%32s\n", Integer.toBinaryString(15234));
-        System.out.printf("b%32s\n", Integer.toBinaryString(1252 & 15234));
-        System.out.printf("b%32s\n", Integer.toBinaryString(1252 | 15234));
-        System.out.printf("b%32s\n", Integer.toBinaryString(1252 ^ 15234));
-        System.out.printf("b%32s\n", Integer.toBinaryString(~1252)); // 논리 연산자처럼 보이지만 비트연산자이다
+//        System.out.printf("b%32s\n", Integer.toBinaryString(1252));
+//        System.out.printf("b%32s\n", Integer.toBinaryString(15234));
+//        System.out.printf("b%32s\n", Integer.toBinaryString(1252 & 15234));
+//        System.out.printf("b%32s\n", Integer.toBinaryString(1252 | 15234));
+//        System.out.printf("b%32s\n", Integer.toBinaryString(1252 ^ 15234));
+//        System.out.printf("b%32s\n", Integer.toBinaryString(~1252)); // 논리 연산자처럼 보이지만 비트연산자이다
 
+        int a = 0;
+        int b = 0;
+
+        System.out.println(a > 0 & b > 0); // false. 앞에도 false, 뒤에서 false라서 // bitwise에서만 사용
+        System.out.println(a++ > 0 & b++ > 0); // false //
+        System.out.println(a + ", " + b);
+
+        a = 0;
+        b = 0;
+        System.out.println(a++ > 0 && b++ > 0); // false // shirt circuit 기능을 많이 사용한다
+        System.out.println(a + ", " + b); // 1, 0
+
+        // && -> 하나만 거짓이어도 뒤에거는 계산하지 않음
+        // || -> 하나만 참이어도 뒤에거는 계산하지 않음
     }
 }

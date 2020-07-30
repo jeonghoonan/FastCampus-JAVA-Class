@@ -38,14 +38,14 @@ public class Main {
         System.out.printf("%-5d.\n", 10); // -를 붙이면 좌측정렬
         System.out.printf("%05d\n", 234);
         System.out.printf("%3d\n", 104294); // 최소한 3칸을 확보 길면 상관없음.
-        System.out.printf("");
+        System.out.println("");
 
         // 실수 자릿수 표현
-        System.out.printf("%5.4f\n", 15525234.452342);
+        System.out.printf("%2.4f\n", 15525234.452342);
         System.out.printf("%5.2f\n", 1.425); // 소수점 아래에서는 반올림됨. 소멸은 안되는게 casting은 아니라서
         System.out.printf("%-5.2f\n", 1.425);
 
-        // 입력 메소드
+        // 입력 메소드1
         System.out.println("Input methods.");
         Scanner scanner = new Scanner(System.in); // 키보드 시스텤 기본 입력
 
@@ -73,6 +73,8 @@ public class Main {
 //        System.out.println(scanner.nextLine());
 //        System.out.println(scanner.nextLine());
 //        System.out.println(scanner.nextLine());
+
+
 
 
 
