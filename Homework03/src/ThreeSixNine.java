@@ -23,33 +23,41 @@
 
 public class ThreeSixNine {
     public static void main(String[] args) {
-//        int gameLength = 1000;
-//        int numPeople = 12;
-//        int myTurn = 3;
-
-        for (int i = 3; i <= 1000; i++) {
-            int num1 = i % 10;
-            int num2 = i / 10;
-            int numClap = 0;
-
-            if ((i - 3) % 12 != 0) {
-                continue;
+        for (int i = 0; i <= 4; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("0");
             }
-
-            if (num1 == 3 || num1 == 6 || num1 == 9) {
-                numClap++;
-            }
-            if (num2 == 3 || num2 == 6 || num2 == 9) {
-                numClap++;
-            }
-            if (numClap == 0) {
-                System.out.println(i);
-            } else {
-                for (int j = 0; j < numClap; j++) {
-                    System.out.print("짝!");
-                }
-                System.out.println("");
-            }
+            System.out.println("");
         }
     }
 }
+//        int gameLength = 1000;
+//        int numPeople = 12;
+//        int myTurn = 3;
+//
+//        for (int i = 1; i <= 1000; i++) {
+//            int num1 = i / 100;
+//            int num2 = i / 10;
+//            int numClap = 0;
+//
+//            if ((i - 3) % 12 != 0) {
+//                continue;
+//            }
+//
+//            if (num1 == 3 || num1 == 6 || num1 == 9) {
+//                numClap++;
+//            }
+//            if (num2 == 3 || num2 == 6 || num2 == 9) {
+//                numClap++;
+//            }
+//            if (numClap == 0) {
+//                System.out.println(i);
+//            } else {
+//                for (int j = 0; j < numClap; j++) {
+//                    System.out.print("짝!");
+//                }
+//                System.out.println("");
+//            }
+//        }
+//    }
+//}

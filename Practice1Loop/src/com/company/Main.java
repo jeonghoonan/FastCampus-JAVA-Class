@@ -89,7 +89,7 @@ public class Main {
                 System.out.print(" ");
             }
             for (int j = 0; j < i * 2 + 1; j++) {
-                System.out.print(i+1);
+                System.out.print(i + 1);
             }
             System.out.println();
         }
@@ -111,14 +111,6 @@ public class Main {
             }
             System.out.println();
         }
-
-
-
-
-
-
-
-
 
 
 //        for (int i = 0; i < 5; i++) {
@@ -147,12 +139,12 @@ public class Main {
 //                }
 //            }
 //            System.out.println("");
-        }
-        /**
-         * 369 게임
-         * 기본형 (순서대로 다 출력, 짝! 하는거는 3, 6, 9 나오면 한번만)
-         * 1 부터 시작해서 10
-         */
+    }
+    /**
+     * 369 게임
+     * 기본형 (순서대로 다 출력, 짝! 하는거는 3, 6, 9 나오면 한번만)
+     * 1 부터 시작해서 10
+     */
 
 //        for (int i = 0; i < 10; i++) {
 //            if (i % 3 == 0) {
@@ -163,9 +155,9 @@ public class Main {
 //            System.out.println("");
 //        }
 
-        /**
-         * 순서대로 다 출력, 1 ~ 30
-         */
+    /**
+     * 순서대로 다 출력, 1 ~ 30
+     */
 
 //        for (int i = 0; i < 30; i++) {
 //            int num1 = i % 10;
@@ -178,12 +170,12 @@ public class Main {
 //            System.out.println("");
 //        }
 
-        /**
-         * 369
-         * 5명 같이하고, 내가 1번
-         * 3,6,9 가 여러개 있으면 해당 횟수만큼 짝!
-         * 1 ~ 60
-         */
+    /**
+     * 369
+     * 5명 같이하고, 내가 1번
+     * 3,6,9 가 여러개 있으면 해당 횟수만큼 짝!
+     * 1 ~ 60
+     */
 
 //        for (int i = 1; i <= 60; i += 5) {
 //            int num1 = i % 10;
@@ -205,43 +197,52 @@ public class Main {
 //            }
 //        }
 
-        /**
-         * 369 게임
-         * 내가 1번 , 8명 같이 합니다.
-         * 짝을 여러번 한다
-         * 10의 배수에서는 다같이 만세!를 외칩니다.
-         * 1 부터 99
-         */
+    /**
+     * 369 게임
+     * 내가 1번 , 8명 같이 합니다.
+     * 짝을 여러번 한다
+     * 10의 배수에서는 다같이 만세!를 외칩니다.
+     * 1 부터 99
+     */
 
-//        for (int i = 1; i <= 99; i ++) {
-//            int num1 = i % 10;
-//            int num2 = i / 10;
-//            int numClap = 0;
+//        for(
+//    int i = 1;
+//    i <=99;i ++)
 //
-//            if (i % 10 == 0) {
-//                System.out.println("만세!");
-//                continue;
-//            }
+//    {
+//        int num1 = i % 10; // 1의 자리
+//        int num2 = i / 10; // 10의 자리
+//        int numClap = 0;
 //
-//            if ((i - 1) % 8 != 0) {
-//                continue;
-//            }
+//        if (i % 10 == 0) {
+//            System.out.println("만세!");
+//            continue;
+//        }
 //
-//            if (num1 == 3 || num1 == 6 || num1 == 9) {
-//                numClap++;
+//        if ((i - 1) % 8 != 0) {
+//            continue;
+//        }
+//
+//        if (num1 == 3 || num1 == 6 || num1 == 9) {
+//            numClap++;
+//        }
+//        if (num2 == 3 || num2 == 6 || num2 == 9) {
+//            numClap++;
+//        }
+//        if (numClap == 0) {
+//            System.out.println(i);
+//        } else {
+//            for (int j = 0; j < numClap; j++) {
+//                System.out.print("짝");
 //            }
-//            if (num2 == 3 || num2 == 6 || num2 == 9) {
-//                numClap++;
-//            }
-//            if (numClap == 0) {
-//                System.out.println(i);
-//            } else {
-//                for (int j = 0; j < numClap; j++) {
-//                    System.out.print("짝");
-//                }
-//                System.out.println("");
-//            }
+//            System.out.println("");
 //        }
 
-
+        /**
+         * 369 게임
+         * 기본형 (순서대로 다 출력, 짝! 하는거는 3, 6, 9 나오면 한번만)
+         * 1 부터 시작해서 10
+         */
     }
+
+
