@@ -25,24 +25,6 @@ import java.util.Scanner;
 public class PrintFormat {
 
     public static void main(String[] args) {
-
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Enter patient id: ");
-//        int id = scanner.nextInt();
-//        scanner.nextLine();
-//        System.out.println("Enter patient disease: ");
-//        String disease = scanner.nextLine();
-//        System.out.println("Enter afterwork: ");
-//        String afterwork = scanner.nextLine();
-//
-//        System.out.println("*----------*--------*---------------*");
-//        System.out.printf("| ID%06d | %-6s | %-13s |", id, disease, afterwork);
-//        System.out.println();
-//        System.out.println("*----------*--------*---------------*");
-
-
-
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Patient ID: ");
         int ID = scanner.nextInt();
@@ -56,33 +38,5 @@ public class PrintFormat {
         System.out.printf("| ID%05d | %-5s | %-10s |", ID, Disease, Solution);
         System.out.println();
         System.out.println("*----------*--------*---------------*");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-};
-
+}
