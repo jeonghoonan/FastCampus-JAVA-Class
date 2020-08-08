@@ -1,2 +1,2 @@
 # FASTCAMPUS Java Class
-* 수업
+* Uploading class files 
