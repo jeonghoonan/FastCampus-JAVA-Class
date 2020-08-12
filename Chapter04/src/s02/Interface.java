@@ -29,11 +29,13 @@ class Foo implements IFoo {
 
     @Override
     public void methodA(int param) {
+
         System.out.println(param);
     }
 
     @Override
     public void methodB(int param) {
+
         System.out.println(param);
     }
 }
