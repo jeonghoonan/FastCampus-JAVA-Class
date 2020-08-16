@@ -41,7 +41,7 @@ public class Main {
         System.out.println("");
 
         // 실수 자릿수 표현
-        System.out.printf("%2.4f\n", 15525234.452342);
+        System.out.printf("%2.4f\n", 15525234.452342); // 2.4에.4는 네자리까지 표현, 2는 최소 2칸 확보하라고 표현 // 칸은 소수점 끝자리에서 시작
         System.out.printf("%5.2f\n", 1.425); // 소수점 아래에서는 반올림됨. 소멸은 안되는게 casting은 아니라서
         System.out.printf("%-5.2f\n", 1.425);
 

@@ -104,8 +104,5 @@ public class Main {
             default:
                 System.out.println("다음엔 잘하세요!"); // default 를 가장 먼저 쓰지말아라
         }
-
-
-
     }
 }
