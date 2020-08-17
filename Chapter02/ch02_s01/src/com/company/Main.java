@@ -43,7 +43,5 @@ public class Main {
         // int PascalCase; -> class 이름 등... 변수에 사용하지는 않음
 
         int _8thWord; // 숫자를 앞에 써야할때 _ 를 사용한다
-
-
     }
 }

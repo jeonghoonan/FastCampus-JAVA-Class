@@ -174,7 +174,5 @@ public class Main {
 //        char charVal = 4123;
 //        byte byteVal = (byte)charVal;
 //        System.out.println(byteVal);
-
-
     }
 }
