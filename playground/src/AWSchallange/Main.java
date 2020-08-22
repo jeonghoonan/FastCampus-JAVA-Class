@@ -30,5 +30,5 @@ public class Main {
             } else {
                 return 4;
             }
-        }
+      }
 }
